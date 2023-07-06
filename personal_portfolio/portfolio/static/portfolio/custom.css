@@ -1,0 +1,33 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+#logo {
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px gray, 0 0 13px #333;
+}
+
+#ph {
+    border-radius: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
